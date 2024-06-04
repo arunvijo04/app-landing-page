@@ -1,0 +1,94 @@
+/* components/TestimonialSection.module.css */
+
+.testimonialSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background: #f9f9f9;
+  }
+  
+  .testimonialContent {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .testimonialTitle {
+    font-size: 1rem;
+    color: #ff4a57;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .testimonialSubtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .testimonialQuote {
+    margin-top: 2rem;
+  }
+  
+  .testimonialQuote h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonialQuote p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .testimonialAuthor {
+    margin-top: 1rem;
+  }
+  
+  .testimonialAuthor p {
+    font-weight: bold;
+  }
+  
+  .testimonialImage {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .userImages {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .userImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .mainUserImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .quoteIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #ff4a57;
+    z-index: 0;
+  }
+  

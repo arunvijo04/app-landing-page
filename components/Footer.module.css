@@ -1,0 +1,23 @@
+/* components/Footer.module.css */
+
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
+  
+  .footer p a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer p a:hover {
+    color: #bbb; /* Light grey on hover */
+  }
+  

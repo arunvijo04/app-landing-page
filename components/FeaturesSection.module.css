@@ -1,0 +1,54 @@
+/* components/FeaturesSection.module.css */
+
+.featuresSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #333; /* Dark background */
+}
+
+.featureImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureImage img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.featureContent {
+  flex: 1;
+  padding: 1rem;
+}
+
+.featureTitle {
+  color: #ff6f61; /* Reddish text color */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.featureSubtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff; /* White text color */
+}
+
+.featureItem {
+  margin-bottom: 1rem;
+}
+
+.featureItem h4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #fff; /* White text color */
+}
+
+.featureItem p {
+  color: #ccc; /* Light gray text color */
+}

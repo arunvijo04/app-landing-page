@@ -1,0 +1,58 @@
+/* components/Hero.module.css */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .heroContent {
+    max-width: 600px;
+  }
+  
+  .heroContent h1 {
+    font-size: 3rem;
+    color: #333; /* Dark grey text color */
+    margin-bottom: 1rem;
+  }
+  
+  .heroContent p {
+    font-size: 1.2rem;
+    color: #666; /* Medium grey text color */
+    margin-bottom: 2rem;
+  }
+  
+  .ctaButtons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 1rem 2rem;
+    background-color: #333; /* Dark grey background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+  }
+  
+  .button:last-child {
+    margin-right: 0;
+  }
+  
+  .button:hover {
+    background-color: #555; /* Darker grey on hover */
+  }
+  
+  .heroImage img {
+    width: 100%;
+    max-width: 400px;
+  }
+  

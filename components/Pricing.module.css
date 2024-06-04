@@ -1,0 +1,23 @@
+/* components/Pricing.module.css */
+
+.pricingItem {
+    background-color: #fff; /* White background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease; /* Transition for scale transformation */
+  }
+  
+  .pricingItem:hover {
+    transform: scale(1.05); /* Scale transformation on hover */
+  }
+  
+  .priceBox {
+    background-color: #ff5252; /* Reddish background for price box */
+    color: #fff; /* White text color */
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  

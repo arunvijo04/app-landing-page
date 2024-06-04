@@ -1,0 +1,39 @@
+/* components/FAQ.module.css */
+
+.faq {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .faq h2 {
+    font-size: 2.5rem;
+    color: #333; /* Dark grey text color */
+    margin-bottom: 2rem;
+  }
+  
+  .faqGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .faqItem {
+    background-color: #fff; /* White background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .faqItem h3 {
+    font-size: 1.5rem;
+    color: #333; /* Dark grey text color */
+    margin-bottom: 1rem;
+  }
+  
+  .faqItem p {
+    font-size: 1rem;
+    color: #666; /* Medium grey text color */
+  }
+  
